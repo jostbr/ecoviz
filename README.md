@@ -13,7 +13,8 @@ The code is witten in Python 3.6, but I would assume (untested) any 3.x version 
 - Matplotlib
 - Pandas
 - Seaborn
-Although these can be installed sperately, often recommended approach is to install the Anaconda distribution found [Here](https://www.continuum.io/downloads). This Python distribution comes with a ton of useful packages for scientific computing wthout having to install any packages manually.
+
+Although these can be installed sperately, the often recommended approach is to install the [Anaconda](https://www.continuum.io/downloads) distribution. This Python distribution comes with a ton of useful packages for scientific computing without having to install any packages manually.
 
 ## What happens behind the curtains?
 When you run add_expense.py and add_income.py for the first time, new directories 'expense' and 'income' are generated. In addition, directories for the relevant year and a new textfile for the month of the input data, are generated. When you add an expense/income in the e.g. same month as before, the scripts appends to the already existing textfile.
