@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 
 import os
 import sys
@@ -55,7 +56,8 @@ def get_single_month_economy_data(economy_type, month, year):
 	as well as a string month and year in order to extract data from the
 	file corresponding to the particular month and year. Data is returned
 	in a DataFrame through as call to get_single_month_dataframe()."""
-	economy_dir = os.path.join(os.getcwd(), economy_type)	# Set to either 'expense' or 'income'
+	source_dir = os.path.dirname(os.path.abspath(__file__))	# Directory of this script
+	economy_dir = os.path.join(source_dir, economy_type)	# Set to either 'expense' or 'income'
 	year_dir = os.path.join(economy_dir, year)				# Relevant year for reuqested file
 
 	for filename in os.listdir(year_dir):
@@ -70,7 +72,8 @@ def get_multi_month_economy_data(economy_type):
 	"""Function that takes an economy type (either 'expense' or 'income')
 	and collects data from text files for all existing years and months.
 	Then combines all this data in one massive DataFrame and returns it."""
-	economy_dir = os.path.join(os.getcwd(), economy_type)
+	source_dir = os.path.dirname(os.path.abspath(__file__))	# Directory of this script
+	economy_dir = os.path.join(source_dir, economy_type)	# Set to either 'expense' or 'income'
 	monthly_frames = list()		# To store list of dataframes each with monthly data
 
 	for curr_year in os.listdir(economy_dir):				# Loop through all years
@@ -243,7 +246,7 @@ if (__name__ == "__main__"):
 		generate_pie_chart(exp_data, "expense", sys.argv[1], plot_loc = 2)
 
 	else:
-		print("Invalid use of command line arguments. Use arg '--help' for instruction.\n")
+		print("Error: Invalid use of cmd-line args; see 'python ecoviz.py --help'\n")
 		
 
 	plt.show()
