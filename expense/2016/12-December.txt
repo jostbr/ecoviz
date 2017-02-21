@@ -1,0 +1,25 @@
+Expenses for December 2016:
+-------------------------------
+01/12/2016 - Rent          - 240.00
+03/12/2016 - Groceries     - 40.00 
+06/12/2016 - Groceries     - 3.00  
+08/12/2016 - Groceries     - 50
+11/12/2016 - Groceries     - 2.00  
+12/12/2016 - EatingOut     - 6.00  
+12/12/2016 - Groceries     - 7.00  
+12/12/2016 - Entertainment - 23.00
+13/12/2016 - Groceries     - 10.00  
+14/12/2016 - Groceries     - 18.40 
+14/12/2016 - Groceries     - 24.19 
+15/12/2016 - Internet      - 22.50 
+16/12/2016 - EatingOut     - 6.00  
+16/12/2016 - Entertainment - 11.00 
+19/12/2016 - EatingOut     - 3.00  
+19/12/2016 - Groceries     - 15.46
+20/12/2016 - Groceries     - 3.70  
+15/12/2016 - Other         - 75.00 
+22/12/2016 - Groceries     - 43.58 
+28/12/2016 - Entertainment - 56.00 
+28/12/2016 - Groceries     - 19.20 
+29/12/2016 - Groceries     - 10.60   
+23/12/2016 - Other         - 26.50  

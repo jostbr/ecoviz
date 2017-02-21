@@ -2,7 +2,7 @@
 Software package for personal economy tracking and visualization.
 
 ## How to get started
-Download the four source files and store them in a directory of choice. Then when you have a new expense or income you run add_expense.py or add_income.py respectively, to save the expense/income to a data file. As for what type of expense/income type you should use, just do anything you want, for example rent, groceries, transport, entertainemnt, clothes, but try not to use too many different (not more than 10 for example). Some can maybe be combined into a "other" category. Now you have stored some economy data and can run ecoviz.py to visualize the data. Here the data can be visualized either for a (any) single month or for the entire time span since the beginning of expense/income tracking. Instructions for use of command line arguments can be found by providing `--help` flag to either of the three above mentioned scripts.
+Download the four source files and store them in a directory of choice (or just clone the repository). Then when you have a new expense or income you run add_expense.py or add_income.py respectively, to save the expense/income to a data file. As for what type of expense/income type you should use, just do anything you want, for example rent, groceries, transport, entertainemnt, clothes, but try not to use too many different (not more than 8 for example). Some can maybe be combined into a "other" category. Now you have stored some economy data and can run ecoviz.py to visualize the data. Here the data can be visualized either for a (any) single month or for the entire time span since the beginning of expense/income tracking. Instructions for use of command line arguments can be found by providing `--help` flag to either of the three above mentioned scripts.
 
 **Note:** The code is not fully developed so in order for ecoviz.py to work properly, there needs to exist both expense and income data, i.e. you will have to have run add_expense.py and add_income.py with some input data. Also, even if you have entered a lot of expense data, ecoviz.py will still crash if there are no income data.
 
@@ -15,6 +15,10 @@ The code is witten in Python 3.6, but I would assume (untested) any 3.x version 
 - Seaborn
 
 Although these can be installed sperately, the often recommended approach is to install the [Anaconda](https://www.continuum.io/downloads) distribution. This Python distribution comes with a ton of useful packages for scientific computing without having to install any packages manually.
+
+## Example data
+In the repository there is an example data set. Feel free to use this if you want see how it might look after some months of expense/income tracking. Below is example images that shows the two types of visualizations the program offers.
+![GitHub Logo](exaple_alltime_visualization.png)
 
 ## What happens behind the scene?
 When you run add_expense.py and add_income.py for the first time, new directories 'expense' and 'income' are generated. In addition, directories for the relevant year and a new textfile for the month of the input data, are generated. When you add an expense/income in the e.g. same month as before, the scripts appends to the already existing textfile.

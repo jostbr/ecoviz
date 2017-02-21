@@ -1,0 +1,21 @@
+Expenses for September 2016:
+------------------------------------
+01/09/2016 - Rent          - 240.00
+05/09/2016 - Groceries     - 25.00
+06/09/2016 - Groceries     - 8.00
+07/09/2016 - Groceries     - 3.00
+12/09/2016 - EatingOut     - 7.00
+13/09/2016 - Groceries     - 65.00
+17/09/2016 - Groceries     - 10.00 
+17/09/2016 - Clothes       - 9.20 
+18/09/2016 - Groceries     - 18.00
+19/09/2016 - EatingOut     - 7.00
+21/09/2016 - Transport     - 60.00
+22/09/2016 - Other         - 150.00
+24/09/2016 - Groceries     - 13.90
+26/09/2016 - EatingOut     - 7.00  
+26/09/2016 - Other         - 12.50 
+27/09/2016 - Other         - 5.00  
+28/09/2016 - EatingOut     - 2.00  
+28/09/2016 - Groceries     - 55.57 
+29/09/2016 - Groceries     - 3.00  

@@ -1,0 +1,21 @@
+Expenses for October 2016:
+-------------------------------
+01/10/2016 - Rent          - 240.00
+01/10/2016 - Groceries     - 3.00  
+01/10/2016 - Entertainment - 60.00 
+07/10/2016 - Groceries     - 2.00  
+07/10/2016 - Groceries     - 50.00 
+11/10/2016 - Groceries     - 6.00  
+13/10/2016 - Groceries     - 54.38 
+14/10/2016 - Groceries     - 15.90 
+15/10/2016 - Groceries     - 28.79 
+16/10/2016 - Entertainment - 24.00 
+16/10/2016 - Entertainment - 4.00  
+17/10/2016 - Groceries     - 4.60  
+20/10/2016 - Groceries     - 2.70  
+22/10/2016 - Groceries     - 5.60  
+22/10/2016 - Other         - 25.00 
+25/10/2016 - Transport     - 50.00 
+26/10/2016 - Groceries     - 54.10 
+31/10/2016 - EatingOut     - 6.00  
+31/10/2016 - Groceries     - 4.60  

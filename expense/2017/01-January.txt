@@ -1,0 +1,27 @@
+Expenses for January 2017:
+-------------------------------
+01/01/2017 - Rent          - 240.00
+03/01/2017 - Groceries     - 5.00  
+06/01/2017 - Entertainment - 17.00 
+07/01/2017 - Entertainment - 19.00 
+05/01/2017 - Groceries     - 60.00 
+06/01/2017 - Transport     - 10.00  
+07/01/2017 - EatingOut     - 12.00  
+07/01/2017 - Transport     - 4.00  
+09/01/2017 - Transport     - 4.00  
+09/01/2017 - Groceries     - 16.00 
+12/01/2017 - Transport     - 54.00 
+12/01/2017 - Other         - 84.00 
+12/01/2017 - Groceries     - 5.00  
+14/01/2017 - Groceries     - 62.00 
+15/01/2017 - Internet      - 23.50 
+16/01/2017 - Groceries     - 4.50  
+16/01/2017 - Other         - 33.50 
+17/01/2017 - EatingOut     - 3.64  
+19/01/2017 - Other         - 28.50 
+21/01/2017 - Other         - 60.00 
+23/01/2017 - Groceries     - 61.88 
+25/01/2017 - Clothes       - 320.00
+25/01/2017 - Groceries     - 11.90 
+25/01/2017 - Groceries     - 34.00 
+30/01/2017 - Groceries     - 57.00 

@@ -1,0 +1,18 @@
+Expenses for November 2016:
+-------------------------------
+01/11/2016 - Rent          - 240.00
+02/11/2016 - Groceries     - 60.20 
+05/11/2016 - Groceries     - 5.00  
+09/11/2016 - EatingOut     - 3.00  
+09/11/2016 - Groceries     - 55.93 
+12/11/2016 - Groceries     - 14.00 
+15/11/2016 - Groceries     - 2.00  
+15/11/2016 - Internet      - 41.44
+16/11/2016 - Groceries     - 34.00 
+17/11/2016 - Groceries     - 2.70  
+19/11/2016 - Other         - 13.00 
+21/11/2016 - Groceries     - 3.00  
+23/11/2016 - EatingOut     - 6.00  
+23/11/2016 - Groceries     - 49.00 
+24/11/2016 - Transport     - 53.00 
+28/11/2016 - Groceries     - 47.00 

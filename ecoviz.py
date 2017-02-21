@@ -159,9 +159,9 @@ def generate_pie_chart(data, economy_type, date, multi_mode = False, plot_loc = 
 	data = data.sum(0)		# Sum column-wise to get total expense for each category
 	data.name = ""			# To supress sidewyas name ("None") for pie chart
 	autopct = lambda frac: "{:.2f},- ({:.1f}%)".format((frac * sum(data)) / 100.0, frac)
-	explode = [3 / data[i]**(1/2) for i in range(len(data))]	# Some array for exploding pie
+	explode = [0.8 / data[i]**(1/2) for i in range(len(data))]	# Some array for exploding pie
 
-	plt.style.use("seaborn-deep")
+	plt.style.use("seaborn-pastel")
 	data.plot.pie(title = "Pie chart of {} for {}".format(\
 		economy_type, date, economy_type, sum(data)), autopct = autopct, fontsize = 8, \
 		explode = explode, shadow = True)
