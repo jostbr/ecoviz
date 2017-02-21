@@ -1,5 +1,5 @@
 # EcoViz
-Software package for personal economy tracking and visualization.
+Python scripts for personal economy tracking and visualization.
 
 ## How to get started
 Download the four source files and store them in a directory of choice (or just clone the repository). Then when you have a new expense or income you run add_expense.py or add_income.py respectively, to save the expense/income to a data file. As for what type of expense/income type you should use, just do anything you want, for example rent, groceries, transport, entertainemnt, clothes, but try not to use too many different (not more than 8 for example). Some can maybe be combined into a "other" category. Now you have stored some economy data and can run ecoviz.py to visualize the data. Here the data can be visualized either for a (any) single month or for the entire time span since the beginning of expense/income tracking. Instructions for use of command line arguments can be found by providing `--help` flag to either of the three above mentioned scripts.
@@ -14,7 +14,7 @@ The code is witten in Python 3.6, but I would assume (untested) any 3.x version 
 - Pandas
 - Seaborn
 
-Although these can be installed sperately, the often recommended approach is to install the [Anaconda](https://www.continuum.io/downloads) distribution. This Python distribution comes with a ton of useful packages for scientific computing without having to install any packages manually.
+Although these can be installed seperately, the often recommended approach is to install the [Anaconda](https://www.continuum.io/downloads) distribution. This Python distribution comes with a ton of useful packages for scientific computing without having to install any packages manually.
 
 ## Example data
 In the repository there is an example data set. Feel free to use this if you want see how it might look after some months of expense/income tracking. Below is example images that shows the two types of visualizations the program offers.
@@ -32,4 +32,5 @@ Furthermore the main script ecoviz.py utilizes the pandas module for data analys
 1. As mentioned above, the code does not take into account that a user may only be tracking/inputting expense or income data, but not the other. Adding support for this may be done in the future.
 2. The visualization for single month data is not optimal as the bar and pie chart almost shows the same thing. Any idea for something to replace the bar chart here, is welcome.
 3. When using ecoviz.py with very little data, the visualization may be rather boring and not so neat looking. Although a flexible solution to this may hard to fix as the data is so limited anyway.
-4. After long usage of the software the number of days/weeks/months of data may become large and thus some of the plots/tables (axis, number of rows in table, etc.) in may look like a mess, however this is untested.
+4. After long usage of the software the number of days/weeks/months of data may become large and thus some of the plots/tables (axis, number of rows in table, etc.) in may look like a mess, however this is untested.æ
+5. Might be an idea to make the scripts operate as a python module. So might write a setup.py script in the future.
