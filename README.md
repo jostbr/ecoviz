@@ -18,7 +18,10 @@ Although these can be installed sperately, the often recommended approach is to 
 
 ## Example data
 In the repository there is an example data set. Feel free to use this if you want see how it might look after some months of expense/income tracking. Below is example images that shows the two types of visualizations the program offers.
-![GitHub Logo](example_alltime_viz.png)
+![Visualization of data for all time](example_alltime_viz.png)
+This image shows a visualization of all expense/income, data in the example set, since the very beginning of expense/income tracking.
+![Visualization of data for one month](example_month_viz.png)
+This second image shows a visualization of data for one single month (in this case January 2017). All values in both the figures are in US dollars, but you can choose wich ever currency you want when submitting expense/income.
 
 ## What happens behind the scene?
 When you run add_expense.py and add_income.py for the first time, new directories 'expense' and 'income' are generated. In addition, directories for the relevant year and a new textfile for the month of the input data, are generated. When you add an expense/income in the e.g. same month as before, the scripts appends to the already existing textfile.
