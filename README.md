@@ -32,5 +32,5 @@ Furthermore the main script ecoviz.py utilizes the pandas module for data analys
 1. As mentioned above, the code does not take into account that a user may only be tracking/inputting expense or income data, but not the other. Adding support for this may be done in the future.
 2. The visualization for single month data is not optimal as the bar and pie chart almost shows the same thing. Any idea for something to replace the bar chart here, is welcome.
 3. When using ecoviz.py with very little data, the visualization may be rather boring and not so neat looking. Although a flexible solution to this may hard to fix as the data is so limited anyway.
-4. After long usage of the software the number of days/weeks/months of data may become large and thus some of the plots/tables (axis, number of rows in table, etc.) in may look like a mess, however this is untested.æ
+4. After long usage of the software the number of days/weeks/months of data may become large and thus some of the plots/tables (axis, number of rows in table, etc.) in may look like a mess, however this is untested.
 5. Might be an idea to make the scripts operate as a python module. So might write a setup.py script in the future.
