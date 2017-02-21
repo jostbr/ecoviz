@@ -16,7 +16,7 @@ The code is witten in Python 3.6, but I would assume (untested) any 3.x version 
 
 Although these can be installed sperately, the often recommended approach is to install the [Anaconda](https://www.continuum.io/downloads) distribution. This Python distribution comes with a ton of useful packages for scientific computing without having to install any packages manually.
 
-## What happens behind the curtains?
+## What happens behind the scene?
 When you run add_expense.py and add_income.py for the first time, new directories 'expense' and 'income' are generated. In addition, directories for the relevant year and a new textfile for the month of the input data, are generated. When you add an expense/income in the e.g. same month as before, the scripts appends to the already existing textfile.
 
 Furthermore the main script ecoviz.py utilizes the pandas module for data analysis and visualization. Here, depending on the command line arguments, expense/income data is gathered and plotted in various ways. Here one can definetly change the source if one wishes to represent the data in another way.
