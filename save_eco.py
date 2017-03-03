@@ -55,7 +55,7 @@ def add_economy_data(exp_or_inc, cmd_line_args):
 
 	if (not os.path.exists(file_path)):										# If file for month doesn't exist
 		with open(file_path, "w") as economy_file:
-			economy_file.write("{} for".format(exp_or_inc) + \
+			economy_file.write("{} for ".format(exp_or_inc.title()) + \
 				months[int(economy_month)] + " " + economy_year + ":\n")	# Create header for data file
 			economy_file.write("-------------------------------\n")			# Decoration
 
