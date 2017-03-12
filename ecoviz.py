@@ -197,8 +197,8 @@ def visualize_economy_over_time(exp_data, inc_data):
 	ax = monthly_comb_data.plot(ax = plt.gca(), x = monthly_comb_data.index, \
 		kind = "bar", legend = True, sharex = True)
 	ticklabels = [""] * len(monthly_comb_data.index)										# Initate all labels to empty strings
-	ticklabels[::1] = [item.strftime('%b %d') for item in monthly_comb_data.index[::1]] 	# Every ticklable shows month and day
-	ticklabels[::4] = [item.strftime('%b %d\n%Y') for item in monthly_comb_data.index[::4]]	# Every 4th ticklabel includes year
+	ticklabels[::1] = [item.strftime("%b") for item in monthly_comb_data.index[::1]] 	# Every ticklable shows month and day
+	ticklabels[::4] = [item.strftime("%b\n%Y") for item in monthly_comb_data.index[::4]]	# Every 4th ticklabel includes year
 	ax.xaxis.set_major_formatter(ticker.FixedFormatter(ticklabels))
 	plt.gcf().autofmt_xdate()
 	#color = "#694489"	# Best color ever!
