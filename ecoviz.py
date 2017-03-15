@@ -213,7 +213,7 @@ def visualize_economy_over_time(exp_data, inc_data):
 	table_data.index = [table_data.index[i].strftime("%b\n%Y") for i in range(len(table_data.index))]				# Make index readable
 	total_row = pd.DataFrame([[el for el in table_data.sum(0)]], columns = table_data.columns, index = ["Total"])	# Row with sums of columns
 	table_data = pd.concat([table_data, total_row], axis = 0)														# Merge total row at bottom
-	table_data["Daily mean\nexpense"][-1] = np.mean(table_data["Daily mean\nexpense"][:-1])							# Use mean as total (not sum)
+	table_data["Daily mean\nexpense"][-1] = np.mean(table_data["Daily mean\nexpense"][:-2])							# Use mean as total (not sum)
 	seaborn.heatmap(table_data, annot = True, fmt = ".0f", linewidths = 0.5, cmap = "coolwarm", cbar = False)		# Generate table
 	plt.title("Month-by-month statistics", fontsize = 15)															# Add title to table
 
